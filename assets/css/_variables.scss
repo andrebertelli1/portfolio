@@ -1,0 +1,44 @@
+$backgroundPrimary: #202020;
+$backgroundSecondary: #181818;
+$mainColor: #5429cf;
+$fontPrincipal: "Fira Code", sans-serif;
+$hoverPrincipal: #7137fb;
+$lightPrincipal: #fefbfb;
+
+@mixin MaxWidthContainer() {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+@mixin colorLang($color) {
+  color: $color;
+  width: auto;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+@mixin Button() {
+  background-color: $mainColor;
+  color: #fff;
+  padding: 15px 25px;
+  max-width: 250px;
+  width: 150px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+  transition: ease 0.3s;
+  text-decoration: none;
+  font: {
+    size: 16px;
+    weight: 500;
+    family: $fontPrincipal;
+  }
+  &:hover {
+    cursor: pointer;
+    background-color: $hoverPrincipal;
+  }
+}

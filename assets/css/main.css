@@ -1,0 +1,536 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.main-content {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 35px;
+  background: #202020;
+}
+
+header .content {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .content img {
+  width: 150px;
+  height: auto;
+  margin-bottom: -100px;
+}
+
+header .content > a {
+  font-weight: 700;
+}
+
+header .content a {
+  text-decoration: none;
+  color: #dedede;
+  font-family: "Fira Code", "sans-serif";
+  font-size: 19px;
+}
+
+header .content > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+header .content > div > a:hover {
+  color: #7137fb;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.line {
+  width: 100%;
+  background-color: #727272;
+  height: 1px;
+}
+
+.hello-world {
+  background: #181818;
+  height: 91vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 300px;
+}
+
+.hello-world img {
+  width: 600px;
+  height: 600px;
+}
+
+.hello-world aside {
+  font-size: 22px;
+  width: 550px;
+  color: #ddd;
+  font-family: "Fira Code", sans-serif;
+  line-height: 30px;
+}
+
+.hello-world .text::after {
+  content: "|";
+  margin-left: 5px;
+  opacity: 1;
+  -webkit-animation: pisca 0.7s infinite;
+          animation: pisca 0.7s infinite;
+}
+
+@-webkit-keyframes pisca {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes pisca {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.hello-world .btnLetsTalk {
+  background-color: #5429cf;
+  color: #fff;
+  padding: 15px 25px;
+  max-width: 250px;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Fira Code", sans-serif;
+}
+
+.hello-world .btnLetsTalk:hover {
+  cursor: pointer;
+  background-color: #7137fb;
+}
+
+.about {
+  background-color: #202020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 100px;
+  padding: 50px;
+}
+
+.about h2 {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.about aside img {
+  max-width: 800px;
+}
+
+.about main {
+  color: #fff;
+  width: 35%;
+  font-size: 18px;
+  font-family: "Fira Code", "sans-serif";
+  line-height: 27px;
+}
+
+.about main .btnLetsTalk {
+  background-color: #5429cf;
+  color: #fff;
+  padding: 15px 25px;
+  max-width: 250px;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Fira Code", sans-serif;
+}
+
+.about main .btnLetsTalk:hover {
+  cursor: pointer;
+  background-color: #7137fb;
+}
+
+.projects {
+  background: #181818;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+  color: #fff;
+  font-family: "Fira Code", "sans-serif";
+}
+
+.projects h2 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.projects article {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: left;
+}
+
+.projects article > div {
+  height: auto;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: calc(33% - 10%);
+      flex-basis: calc(33% - 10%);
+  background: #202020;
+  padding: 30px 25px;
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+  border: 3px solid #202020;
+}
+
+.projects article > div > a {
+  text-decoration: none;
+  color: #5429cf;
+}
+
+.projects article > div > a:hover {
+  color: #fefbfb;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.skills {
+  background-color: #202020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 100px;
+  padding: 50px;
+}
+
+.skills h2 {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.skills aside img {
+  max-width: 800px;
+}
+
+.skills main {
+  color: #fff;
+  width: 35%;
+  font-size: 18px;
+  font-family: "Fira Code", "sans-serif";
+  line-height: 27px;
+}
+
+.skills .progress-bar-HTML,
+.skills .progress-bar-CSS,
+.skills .progress-bar-SASS,
+.skills .progress-bar-JS,
+.skills .progress-bar-React,
+.skills .progress-bar-Git {
+  height: 2.5px;
+  border-radius: 5px;
+  background-color: #373737;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px 0;
+}
+
+.skills .progress-bar-HTML::before {
+  content: "";
+  width: 85%;
+  border-radius: 5px;
+  background-color: #ff4c17;
+}
+
+.skills .progress-bar-CSS::before {
+  content: "";
+  width: 85%;
+  border-radius: 5px;
+  background-color: #0176bf;
+}
+
+.skills .progress-bar-SASS::before {
+  content: "";
+  width: 75%;
+  border-radius: 5px;
+  background-color: #7b3e5c;
+}
+
+.skills .progress-bar-JS::before {
+  content: "";
+  width: 50%;
+  border-radius: 5px;
+  background-color: #f7e017;
+}
+
+.skills .progress-bar-React::before {
+  content: "";
+  width: 10%;
+  border-radius: 5px;
+  background-color: #61dbfb;
+}
+
+.skills .progress-bar-Git::before {
+  content: "";
+  width: 75%;
+  border-radius: 5px;
+  background-color: #f05030;
+}
+
+.skills .skills-lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: inline-block;
+      -ms-flex-pack: inline-block;
+          justify-content: inline-block;
+  padding: 5px;
+}
+
+.skills .skills-lang .fa-html5 {
+  color: #ff4c17;
+  width: auto;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.skills .skills-lang .fa-css3-alt {
+  color: #0176bf;
+  width: auto;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.skills .skills-lang .fa-sass {
+  color: #7b3e5c;
+  width: auto;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.skills .skills-lang .fa-js-square {
+  color: #f7e017;
+  width: auto;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.skills .skills-lang .fa-react {
+  color: #61dbfb;
+  width: auto;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.skills .skills-lang .fa-git-alt {
+  color: #f05030;
+  width: auto;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.skills article {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: left;
+}
+
+.skills article > div {
+  height: auto;
+  width: 200px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background: #181818;
+  padding: 25px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+  border: 3px solid #181818;
+  font-size: 15px;
+}
+
+.skills article > div > span {
+  color: #757575;
+  padding: 10px 0;
+}
+
+.skills article > div > a {
+  text-decoration: none;
+  color: #5429cf;
+}
+
+.skills article > div > a:hover {
+  color: #fefbfb;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: #181818;
+  color: #fefbfb;
+  font-family: "Fira Code", sans-serif;
+  padding: 50px 0 10px 0;
+}
+
+footer p {
+  padding: 30px;
+}
+
+footer .email {
+  font-size: 17px;
+  background: #202020;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+footer a {
+  background: #202020;
+  text-decoration: none;
+  color: #fefbfb;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+footer div {
+  margin: 50px 0;
+}
+
+footer div a:hover {
+  background: #5429cf;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+/* Animação */
+[data-anime] {
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+[data-anime="bottom"] {
+  -webkit-transform: translate3d(0, 150px, 0);
+          transform: translate3d(0, 150px, 0);
+}
+
+[data-anime="top"] {
+  -webkit-transform: translate3d(0, -150px, 0);
+          transform: translate3d(0, -150px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+          transform: translate3d(0px, 0px, 0px);
+}
+/*# sourceMappingURL=main.css.map */
