@@ -13,7 +13,7 @@ Esse projeto  foi desenvolvido com as seguintes tecnologias:
 Lembrando que será necessário criar uma conta no Firebase e um projeto para disponibilizar um Realtime Database.
 
 ## 📚 Seções
-* Home: Nele temos um avatar do meu github e um breve apresentação;
+* Home: Nele temos uma breve apresentação;
 * Sobre mim: Nessa seção tenho uma descrição dizendo um pouco sobre mim;
 * Projetos: Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
 * Conhecimentos: Nele apresentamos meus conhecimentos em algumas linguagens como o foco no front-end;
