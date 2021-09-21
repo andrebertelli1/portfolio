@@ -9,9 +9,6 @@ Esse projeto  foi desenvolvido com as seguintes tecnologias:
 
 ## 🚀 <a href="https://andrebertelli.netlify.app/">Clique aqui para vizualizar o projeto</a>
 
-
-Lembrando que será necessário criar uma conta no Firebase e um projeto para disponibilizar um Realtime Database.
-
 ## 📚 Seções
 * Home: Nele temos uma breve apresentação;
 * Sobre mim: Nessa seção tenho uma descrição dizendo um pouco sobre mim;
