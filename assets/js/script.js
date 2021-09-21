@@ -54,17 +54,17 @@ const toProjects = menuSection.querySelector(".to-projects")
 const toSkills = menuSection.querySelector(".to-skills")
 
 toAbout.addEventListener("click", () => {
-  document.body.style.overflow = show ? "hidden" : "initial"
+  document.body.style.overflow = "initial"
   menuSection.classList.remove("on")
 })
 
 toProjects.addEventListener("click", () => {
-  document.body.style.overflow = show ? "hidden" : "initial"
+  document.body.style.overflow = "initial"
   menuSection.classList.remove("on")
 })
 
 toSkills.addEventListener("click", () => {
-  document.body.style.overflow = show ? "hidden" : "initial"
+  document.body.style.overflow = "initial"
   menuSection.classList.remove("on")
 })
 
