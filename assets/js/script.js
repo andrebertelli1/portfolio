@@ -56,3 +56,16 @@ menuToggle.addEventListener("click", () => {
   menuSection.classList.toggle("on", show)
   show = !show;
 })
+
+const toTop = document.querySelector(".to-top")
+const toAbout = document.querySelector(".toAbout")
+const toProjects = document.querySelector(".toProjects")
+const toSkills = document.querySelector(".toSkills")
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active")
+  } else {
+    toTop.classList.remove("active")
+  }
+})

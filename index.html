@@ -28,13 +28,13 @@
         <nav>
           <ul>
             <li>
-              <a href="#">About me</a>
+              <a href="#about">About me</a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#">Skills</a>
+              <a href="#skills">Skills</a>
             </li>
           </ul>
         </nav>
@@ -47,14 +47,14 @@
       <p>Hi! 👋🏻 I'm</p>
       <strong>André Bertelli</strong>
       <p class="text">Student and Junior Front End developer.</p>
-      <a class="btnLetsTalk" title="Let's Talk">Let's Talk!</a>
+      <a class="btnLetsTalk" title="Let's Talk" href="#btnTalk">Let's Talk!</a>
     </aside>
     <main data-anime="top">
       <img src="assets/images/undraw_Developer_activity_re_39tg.svg" alt="">
     </main>
   </section>
 
-  <div class="about">
+  <div class="about" id="about">
     <aside data-anime="bottom">
       <img src="assets/images/about-me.PNG" alt="About me">
     </aside>
@@ -70,11 +70,11 @@
         hours a day to studying. I see that I am on the right path because I see the results
         that the dedicated hours bring.
       </p>
-      <a class="btnLetsTalk" href="#" title="Let's Talk">Let's Talk!</a>
+      <a class="btnLetsTalk" title="Let's Talk" href="#btnTalk">Let's Talk!</a>
     </main>
   </div>
 
-  <section class="projects">
+  <section class="projects" id="projects">
     <div class="main-content" data-anime="bottom">
       <h2>Projects</h2>
       <article>
@@ -104,11 +104,12 @@
           <h3>Em breve</h3>
           <p>Grab the coffee and wait a while, the project is getting ready.</p>
         </div>
+      </article>
     </div>
     </div>
   </section>
 
-  <section class="skills">
+  <section class="skills" id="skills">
     <aside data-anime="bottom">
       <img src="assets/images/skills.PNG" alt="Skills">
     </aside>
@@ -157,7 +158,7 @@
       </article>
     </main>
   </section>
-  <footer>
+  <footer id="btnTalk">
     <div class="main-content">
       <h1>Hello World! 🌎</h1>
       <p>Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
@@ -173,6 +174,9 @@
       <span>Made by André Bertelli</span>
     </div>
   </footer>
+  <a href="#" class="to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
 
   <script src="./assets/js/script.js"></script>
 </body>
