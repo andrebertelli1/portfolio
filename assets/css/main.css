@@ -735,7 +735,23 @@ footer div a:hover {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 510px) {
+  footer .email {
+    font-size: 14px;
+  }
+  footer a {
+    padding: 10px 60px;
+  }
+  footer .fab {
+    padding: 10px 0px;
+    margin-top: 10px;
+  }
+  footer .fa-github {
+    padding: 10px 7.5px;
+  }
+}
+
+@media (max-width: 446px) {
   .hello-world main img {
     width: 225px;
     height: auto;
@@ -752,10 +768,14 @@ footer div a:hover {
     font-size: 14px;
   }
   footer a {
-    padding: 10px 40px;
+    padding: 10px 110px;
+  }
+  footer .fab {
+    padding: 10px 0px;
+    margin-top: 10px;
   }
   footer .fa-github {
-    margin-top: 30px;
+    padding: 10px 7.5px;
   }
 }
 

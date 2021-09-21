@@ -609,7 +609,28 @@ footer {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 510px) {
+  footer {
+    .email {
+      font-size: 14px;
+    }
+
+    a {
+      padding: 10px 60px;
+    }
+
+    .fab {
+      padding: 10px 0px;
+      margin-top: 10px;
+    }
+
+    .fa-github {
+      padding: 10px 7.5px;
+    }
+  }
+}
+
+@media (max-width: 446px) {
   .hello-world {
     main {
       img {
@@ -643,11 +664,16 @@ footer {
     }
 
     a {
-      padding: 10px 40px;
+      padding: 10px 110px;
+    }
+
+    .fab {
+      padding: 10px 0px;
+      margin-top: 10px;
     }
 
     .fa-github {
-      margin-top: 30px;
+      padding: 10px 7.5px;
     }
   }
 }
