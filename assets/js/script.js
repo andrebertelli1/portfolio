@@ -49,6 +49,24 @@ let show = true;
 
 const menuSection = document.querySelector(".menu-section")
 const menuToggle = menuSection.querySelector(".menu-toggle")
+const toAbout = menuSection.querySelector(".to-about")
+const toProjects = menuSection.querySelector(".to-projects")
+const toSkills = menuSection.querySelector(".to-skills")
+
+toAbout.addEventListener("click", () => {
+  document.body.style.overflow = show ? "hidden" : "initial"
+  menuSection.classList.remove("on")
+})
+
+toProjects.addEventListener("click", () => {
+  document.body.style.overflow = show ? "hidden" : "initial"
+  menuSection.classList.remove("on")
+})
+
+toSkills.addEventListener("click", () => {
+  document.body.style.overflow = show ? "hidden" : "initial"
+  menuSection.classList.remove("on")
+})
 
 menuToggle.addEventListener("click", () => {
   document.body.style.overflow = show ? "hidden" : "initial"
@@ -58,9 +76,6 @@ menuToggle.addEventListener("click", () => {
 })
 
 const toTop = document.querySelector(".to-top")
-const toAbout = document.querySelector(".toAbout")
-const toProjects = document.querySelector(".toProjects")
-const toSkills = document.querySelector(".toSkills")
 
 window.addEventListener("scroll", () => {
   if (window.pageYOffset > 100) {
