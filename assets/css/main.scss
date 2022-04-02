@@ -187,6 +187,7 @@ header {
       & > a {
         text-decoration: none;
         color: $mainColor;
+        bottom: 0;
 
         &:hover {
           color: $lightPrincipal;
